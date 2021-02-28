@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite classe en //" parallel="tests" thread-count="3">
+
+	<test name="classe1">
+		<classes>
+			<class name="fr.formation.parallele.Classe1Test"></class>
+		</classes>	
+	</test>
+	<test name="classe2">
+		<classes>
+			<class name="fr.formation.parallele.Classe2Test"></class>
+		</classes>	
+	</test>
+	<test name="classe3">
+		<classes>
+			<class name="fr.formation.parallele.Classe3Test"></class>
+		</classes>	
+	</test>
+
+</suite>

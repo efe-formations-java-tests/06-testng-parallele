@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite classe en //" parallel="methods" thread-count="12">
+
+	<test name="classe1, classe2 et classe3">
+		<classes>
+			<class name="fr.formation.parallele.Classe1Test"></class>
+ 			<class name="fr.formation.parallele.Classe2Test"></class>
+ 			<class name="fr.formation.parallele.Classe3Test"></class>
+		</classes>	
+	</test>
+
+</suite>
